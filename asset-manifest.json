@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-useReducer/static/css/main.4ce4c569.css",
+    "main.js": "/React-useReducer/static/js/main.66853ba3.js",
+    "index.html": "/React-useReducer/index.html",
+    "main.4ce4c569.css.map": "/React-useReducer/static/css/main.4ce4c569.css.map",
+    "main.66853ba3.js.map": "/React-useReducer/static/js/main.66853ba3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce4c569.css",
+    "static/js/main.66853ba3.js"
+  ]
+}
