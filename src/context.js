@@ -31,9 +31,15 @@ const AppProvider = ({ children }) => {
 
   const fetchData = async () => {
     dispatch({ type: 'LOADING' })
+
     const response = await fetch(url)
     const cart = await response.json()
-    dispatch({ type: 'DISPLAY_ITEMS', payload: cart })
+    setTimeout(() => {
+      dispatch({
+        type: 'DISPLAY_ITEMS',
+        payload: cart,
+      })
+    }, 1000)
   }
 
   const toggleAmount = (id, type) => {
